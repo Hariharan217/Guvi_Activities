@@ -1,0 +1,78 @@
+JSON Iteration forEach loop
+
+let arr = [];
+let myJson = {
+    "Name": "Hariharan",
+    "Age": 25,
+    "class": "Full stack developer"
+}
+myJson=JSON.stringify(myJson);
+let obj = JSON.parse(myJson);
+ arr = Object.keys(obj);
+arr.forEach(element => console.log(`The key is ${element} and value is ${obj[element]}`));
+
+
+JSON Iteration forIn loop
+
+
+let myJson = {
+    "Name": "Hariharan",
+    "Age": 25,
+    "class": "Full stack developer"
+}
+myJson=JSON.stringify(myJson);
+let obj = JSON.parse(myJson);
+for(var ele in obj)
+{
+    console.log(`The key is ${ele} and value is ${obj[ele]}`);
+}
+
+
+JSON Iteration forLoop
+
+
+let arr = [];
+let myJson = {
+    "Name": "Hariharan",
+    "Age": 25,
+    "class": "Full stack developer"
+}
+myJson=JSON.stringify(myJson);
+let obj = JSON.parse(myJson);
+ arr = Object.keys(obj);
+for(var index=0; index<arr.length; index++)
+{
+    console.log(`The key is ${arr[index]} and value is ${obj[arr[index]]}`);
+}
+
+
+JSON Iteration forOf Loop
+
+
+let arr = [];
+let myJson = {
+    "Name": "Hariharan",
+    "Age": 25,
+    "class": "Full stack developer"
+}
+myJson=JSON.stringify(myJson);
+let obj = JSON.parse(myJson);
+ arr = Object.keys(obj);
+for(var key of arr)
+{
+    console.log(`The key is ${key} and value is ${obj[key]}`);
+}
+
+
+JSON Resume
+
+
+let myJson = {
+    "Name": "Hariharan",
+    "Age": 25,
+    "Career Objective": "To secure a challenging position where I can effectively contribute my technical skills",
+    "Skill Sets": ["Javascript"],
+    "Personality Traits": ["Solution seeker","Team worker"],
+    "DOB": "20-November-1997",
+    "Qualification": "M,sc (Bioinformatics)"
+}

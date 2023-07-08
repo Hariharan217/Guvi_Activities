@@ -1,0 +1,13 @@
+Window object
+
+  It is the first thing loaded into the browser. Window is a global object, which forms foundation for other object such as document object that loads into screen.
+
+    Window object has a properties and methods such as "length, open, close, etc..."
+
+   
+
+Document object
+
+	A web page that has been loaded into the browser is represented by the document object. We can access the element in the HTML page by gaining access to the document object. Document objects enable us to include dynamic material on our website. Window.document or merely document are two ways to access the document object.
+
+    

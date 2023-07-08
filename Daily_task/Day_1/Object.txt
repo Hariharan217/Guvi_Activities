@@ -1,0 +1,37 @@
+Object:
+
+One of the most significant data types in Javascript is the object. A collection of information about a single thing is stored in an object. Compared to a primitive data-type, it is different. A single variable stores a single value in a primitive data type. Data accessibility in objects is so simple that it has a broad application in javascript.
+
+Storing collection of data is possible in object, because here variable dont store value, but a reference or a pointer stores a value. When ever a user need to access the value, he/she should access the pointer or reference, but not a variable.
+
+ 
+
+How data is stored inside the object?
+
+    Inside the object, the data is stored either as a property or a method. 
+
+    A property is a object structure where a data is stored in "key : Value" pairs. For example,
+
+                let obj = {
+                    key1 : value1,
+                    key2 : value2
+                }
+    
+    Where as in a method, the value is replaced by a function. For example,
+
+                let obj = {
+                    key : function () {
+
+                    }
+                    }
+
+How to access a value in a object?
+
+    Value in a object can be accessed by two methods
+        1. Dot notation method
+            objectname.keyname;
+            
+        2. Bracket notation
+            objectname["keyname"];
+    
+   

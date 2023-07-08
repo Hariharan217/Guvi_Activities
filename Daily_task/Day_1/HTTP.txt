@@ -1,0 +1,19 @@
+What is HTTP? 
+
+Hypertext transfer protocol, or HTTP, is the foundation of nearly all web applications. In more detail, HTTP is the protocol that servers and computers use to request and transfer data. When we search any url in a web browser, their web browser sends an HTTP request to the servers for the content that appears on the page. Then, servers send HTTP responses with the text, images, and formatting that the browser displays to the user.
+
+HTTP 1.1
+
+The first version of the Hypertext Transfer Protocol, HTTP 0.9, was released in 1991. As time went on, HTTP 1.1, which had more modern capabilities than earlier HTTP versions, entered the picture in 1997. The CORS and Keep alive features allowed the user to obtain information much more quickly than before.
+
+HTTP 2
+
+HTTP 2.0 entered in to the web world on 2015. This release addressed a number of problems that hindered users of HTTP 1.1 from getting faster access to data. 
+
+HTTP 1.1 vs HTTP 2
+
+Rather than the text format that HTTP/1.1 uses, HTTP/2 is a binary format. The binary format provides full request and response multiplexing, and efficient compression of HTTP headers. The stream multiplexing means that where HTTP/1.1 requires one TCP stream for each concurrent request, HTTP/2 allows a single TCP stream to handle multiple concurrent requests.
+
+HTTP/2 also provides support for functionality such as response prioritization, and server push.
+
+Large files take longer to load than small ones. Both HTTP/1.1 and HTTP/2 compress HTTP messages to make them smaller and speed up online performance. HPACK, a more sophisticated compression technique used by HTTP/2, gets rid of extraneous data from HTTP header packets. Each HTTP packet is reduced by a few bytes as a result. Considering the number of HTTP packets needed to load even a single webpage, those bytes quickly pile up, causing a speedier loading time.
