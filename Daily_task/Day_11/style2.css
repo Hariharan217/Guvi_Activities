@@ -1,0 +1,30 @@
+body{
+    background-color: whitesmoke;
+    margin: 0% 30%
+
+}
+.heading{
+    justify-content: center;
+    display: flex;
+}
+h1{
+    display: inline-block;
+}
+h2{
+    display: inline-block;
+}
+.container{
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.image{
+    height: 100px;
+    width: 100px;
+    border: 2px solid gray;
+    margin: 25px 25px;
+}
+.form{
+    margin-right: 50px;
+    padding: 20px;
+}
